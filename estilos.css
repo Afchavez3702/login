@@ -8,6 +8,13 @@ header{
 
     
 }
+li{
+    width: 6em;
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(4, 114, 94);
+}
 section{
     height: 60vh;
 
@@ -26,5 +33,12 @@ footer{
     }
     header{
         height:auto;
+    }
+    #menu-small li{
+        width: 3em;
+        text-align: center;
+    }
+    #menu-small li:hover{
+        background-color: rgb(4, 114, 94);
     }
 }
