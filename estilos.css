@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(231, 235, 236);
+    width: 100%;
+    position: fixed;
+}
+header{
+    height: 20vh;
+
+    
+}
+section{
+    height: 60vh;
+
+   
+}
+#form{
+    margin-top: 4em;
+}
+footer{
+    height: 20vh;
+}
+
+@media(width <= 600px) {
+    body{
+        position:absolute;
+    }
+    header{
+        height:auto;
+    }
+}

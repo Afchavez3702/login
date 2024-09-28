@@ -8,18 +8,46 @@
     <link rel="stylesheet" href="estilos.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--iconos de google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>App prueba</title>
+    <title>Login App</title>
 </head>
 <body>
     <div class="row">
+        <header class="col s12">
+            <h1 class="header center teal-text">Login app</h1>
+            <h2 class="header center teal-text">Bienvenido a nuestro software</h2>
 
+        </header>
+        <section class="col s12">
+            <form class="form col s12 m4" id="form">
+                <div class="row">
+                    <div class="col s12 m8">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input class="input" type="text" name="usuario" id="usuario" placeholder="Usuario">
+                    </div>
+                    <div class="col s12 m8">
+                        <i class="material-icons prefix">https</i>
+                        <input class="input" type="password" name="password" id="password" placeholder="Contraseña">
+                    </div>
+                    <div class="col s12 m8">
+                        <button type="submit" class="waves-effect waves-light btn"><i class="material-icons prefix">send</i> Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>        
     </div>
+    <footer class="page-footer col s12 teal">
+        <p class="text text center">Login app &copy; 2024</p>
+        <p class="text text center">V-0.0.1</p>
+    </footer>
     
 
     <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <!--Script propios-->
+    <!--Script propios-->
   <script src="script.js"></script>
 </body>
 </html>
